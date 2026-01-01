@@ -1,0 +1,14 @@
+[project]
+name = "hands-on-llm"
+version = "0.1.0"
+description = "All my learning on LLM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+]
